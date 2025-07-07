@@ -69,3 +69,12 @@ footer{
     margin-top: 20px;
     border-radius: 10px;
 }
+label{
+   margin-top: 8px;
+
+   /* margin-bottom: 5x; */
+}
+input{
+    margin-top: 8px;
+    margin-left: 200px;
+}
