@@ -78,3 +78,12 @@ input{
     margin-top: 8px;
     margin-left: 200px;
 }
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    
+}
