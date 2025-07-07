@@ -87,3 +87,58 @@ td, th{
     border: 1px solid black;
     
 }
+.box-container{
+    display: flex;
+    gap:50px
+    
+}
+.container {
+    display: flex;
+}
+
+.container div{
+    border: 2px solid mediumblue;
+    font-size: 3em;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    /* padding: 2px; */
+}
+
+.box{
+    border: 2px solid mediumblue;
+    font-size: 4em;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}
+.card-container{
+    display: flex;
+    /* justify-content: center; */
+    justify-content:space-around;
+
+}
+
+.user_1{
+    border: 2px solid mediumvioletred;
+    font-size: 2em;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.user{
+    border: 2px solid red;
+    font-size: 2em;
+    height: 300px;
+    width: 300px;
+    text-align: center; 
+}
+.user-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px ;
+
+}
