@@ -129,10 +129,11 @@ td, th{
 }
 .user{
     border: 2px solid red;
-    font-size: 2em;
-    height: 300px;
-    width: 300px;
+    font-size: 4em;
+    height: 100px;
+    width: 100px;
     text-align: center; 
+    
 }
 .user-container{
     display: flex;
@@ -141,4 +142,37 @@ td, th{
     flex-wrap: wrap;
     gap: 20px ;
 
+}
+
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+    width: 1000px; /* Set a width for the flex container */
+    height: 800px; /* Set a height for the flex container */
+    margin-left: 50px; /* Center the container horizontally */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    /* justify-content: center;  */
+    /* align-items: center; Center vertically */
+    /* height: 100vh; Full viewport height for vertical centering */
+    /* background-color: lightgray; */ /* Optional background color for visibility */
+}
+
+.flex-item {
+    background-color: yellow;
+    
+    padding: 20px;
+    font-size: 30px;
+    /* text-align: center; */
+    width: 60px; /* Set a width for the flex item */
+    height: 60px; /* Set a height for the flex item */
+}
+.zero_margin-container{
+    background-color: lightcoral;
+}
+.content{
+    background-color: magenta;
+    font-size: 30px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the content horizontally */
 }
