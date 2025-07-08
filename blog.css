@@ -176,3 +176,7 @@ td, th{
     max-width: 1200px;
     margin: 0 auto; /* Center the content horizontally */
 }
+.hero-section{
+    display: flex;
+}
+
