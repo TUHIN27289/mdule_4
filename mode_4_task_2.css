@@ -1,0 +1,38 @@
+.main-form {
+    display: flex;
+   
+    
+
+.basic-form {
+    width: 600px;
+    height: auto;
+    
+}
+
+.form-2nd-part_sub_container {
+    display: flex;
+    gap: px;
+    width: 600px;
+    
+}
+
+.form-2nd-part {
+    width: 600px;
+    height: auto;
+   
+    /* border-radius: 15px; */
+    
+}
+.form_2_container{
+
+display: flex;
+width: 600px;
+}
+}
+.form-2nd-part_sub_container_avi{
+    display: flex;
+}
+body{
+    background-color: #f0f0f0;
+    max-width: 800px;
+}

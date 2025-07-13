@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mode_4_task_2.css" />
+  </head>
+  <body>
+    <h1>please fill out the form below</h1>
+    <section class="form-1st-part">
+      <div class="basic-form">
+        <form>
+          <fieldset>
+            <legend>Basic Information</legend>
+            <div class="main-form">
+              <div class="left-form">
+                <label for="name">Name</label><br />
+                <input type="text" id="name" name="name" /><br /><br />
+                <label for="password">Password </label><br />
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                /><br /><br />
+                <label for="search">Search</label><br />
+                <input
+                  type="search"
+                  id="search"
+                  name="search"
+                  placeholder="Age"
+                /><br /><br />
+                <label for="projs">Projs:&nbsp;&nbsp;</label
+                ><input type="text" />
+              </div>
+
+              <div class="left-form">
+                <label for="email">Email</label><br />
+                <input type="email" id="email" name="email" /><br /><br />
+                <label for="phone">Phone</label><br />
+                <input type="tel" id="phone" name="phone" /><br /><br />
+                <label for="prcest">Prcests</label><br />
+                <input type="search" id="prcest" name="prcest" /><br /><br />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <section class="form-2nd-part">
+      <div class="form_2_container">
+        <form>
+          <fieldset>
+            <legend>Additional Information</legend>
+            <label for="salary">Expected Salary</label><br />
+            <input type="range" name="salary" id="salary" /><br /><br />
+            <label for="date_of_birth">Date of birth</label><br />
+            <input type="date" id="date_of_birth" name="date_of_birth"/><br /><br />
+            <label for="office_hour">Office HOURS</label><br />
+            <input type="time" id="office_hour" name="office_hour" /><br /><br />
+            <div class="form-2nd-part_sub_container">
+              <div class="form-2nd-part_sub_container_item">
+                <label for="meeting_date_and_time">Meeting date and time</label><br />
+                <input
+                  type="datetime-local"
+                  id="meeting_date_and_time"
+                  name="meeting_date_and"
+                /><br><br>
+                <label for="Subscription-Month">Subscription Month</label>
+                <select id="Subscription-Month" name="Subscription-Month">
+                    <option value="janury">janury</option>
+                    <option value="february">february</option>
+                    <option value="march">march</option>
+                    <option value="april">april</option>
+                </select>
+              </div>
+              <div class="form-2nd-part_sub_container_item">
+                <label for="favourite-month">Favourite month</label><br />
+                 <select id="favourite-month" name="favourite-month">
+                    <option value="janury">janury</option>
+                    <option value="february">february</option>
+                    <option value="march">march</option>
+                    <option value="april">april</option>
+                </select><br><br>
+                <label for="favourite-color">Favourite color</label><br />
+                <input type="color" id="favourite-color" name="favourite-color">
+
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <section class="form-3rd-part"> 
+
+        <form>
+            <fieldset>
+                <legend>Feedback form</legend>
+                <label for="story">Share your story</label><br />
+                <textarea name="story" id="story" cols="80"rows="10"></textarea><br>
+                <label for="Feedback">Feedback</label><br />
+                 <select id="Feedback" name="Feedback">
+                    <option value="Good">Good</option>
+                    <option value=" Better"> Better</option>
+                    <option value="Best">Best</option>
+                 </select><br><br>
+                    <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+
+        </section>
+      
+  </body>
+</html>
