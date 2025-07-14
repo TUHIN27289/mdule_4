@@ -1,0 +1,9 @@
+.card-container{
+    display: flex;
+}
+.card-item{
+    padding: 10px;
+}
+.avi{
+    text-align: center;
+}
