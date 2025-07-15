@@ -88,3 +88,44 @@ li:nth-last-child(2n+1){
     width: 200px;
     height: 200px;
 }
+
+
+/* z-index */
+.z_index img {
+    width: 400px;
+    border: 3px dotted purple;
+    
+}
+.z_index{
+    position: relative;
+}
+.boy_{
+    z-index: 10;
+}
+.daimond_{
+    top: -550px;
+    z-index: 5;
+}
+.circle_{
+    top: -700px;
+    z-index: 500;
+}
+h1::after{
+    content: '.pdf';
+    color: blue;
+    font-size: 7px;
+    background-color: yellow;
+}
+h1::before{
+    content: 'start:';
+
+}
+p::first-letter{
+    font-size: 3em ;
+}
+p::first-line{
+    background-color: aquamarine;
+}
+::selection{
+    background-color: chartreuse;
+}
